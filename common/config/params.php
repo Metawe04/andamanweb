@@ -1,0 +1,37 @@
+<?php
+return [
+    'adminEmail' => 'admin@example.com',
+    'supportEmail' => 'support@example.com',
+    'senderEmail' => 'noreply@example.com',
+    'senderName' => 'Example.com mailer',
+    'user.passwordResetTokenExpire' => 3600,
+    'bsVersion' => '4.x',
+    'storageUrl' => YII_ENV_DEV ? 'http://faculty-ku.local/storage/source' : 'http://www.fm.agr.ku.ac.th/storage/source',
+    'tinymceOptions' => [
+        'plugins' => [
+            "print preview paste importcss searchreplace autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap emoticons"
+        ],
+        'toolbar' => "save | undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | preview fullscreen",
+        'menubar' => "file edit view insert format tools table help",
+        'toolbar_sticky' => false,
+        'autosave_ask_before_unload' => true,
+        'image_advtab' => false,
+        'importcss_append' => true,
+        'image_caption' => true,
+        'quickbars_selection_toolbar' => 'bold italic | quicklink h2 h3 blockquote quickimage quicktable',
+        'noneditable_noneditable_class' => 'mceNonEditable',
+        'toolbar_mode' => 'sliding',
+        'contextmenu' => 'link image imagetools table',
+        'images_upload_url' => 'upload',
+        'automatic_uploads' => true,
+        'file_picker_types' => 'file image media',
+        'images_reuse_filename' => true,
+        'autoresize_bottom_margin' => 50,
+        'min_height' => 800,
+        'autoresize_on_init' => false,
+    ],
+    'fmEmail' => 'andamanpattana@gmail.com',
+    'fmTel' => '025334548',
+    'fmFax' => '025334548',
+    'baseUrl' => YII_ENV_DEV ? 'http://faculty-ku.local' : 'http://www.fm.agr.ku.ac.th',
+];
