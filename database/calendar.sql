@@ -5,7 +5,7 @@
  Source Server Type    : MariaDB
  Source Server Version : 100314
  Source Host           : localhost:3307
- Source Schema         : faculty-ku
+ Source Schema         : andaman-web
 
  Target Server Type    : MariaDB
  Target Server Version : 100314

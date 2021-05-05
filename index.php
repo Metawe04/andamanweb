@@ -1,4 +1,4 @@
 <?
-     header("Location: http://faculty-ku.local/");
+     header("Location: http://andaman-web.local/");
     exit;
  ?>
