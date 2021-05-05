@@ -37,7 +37,7 @@ $bundle2->depends[] = 'frontend\assets\AppAsset';
 
         <div class="section-title">
             <h2>
-                ข่าวสารและโครงการ
+                สินค้าและบริการ
             </h2>
         </div>
         <div class="row">
