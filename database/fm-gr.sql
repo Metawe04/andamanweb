@@ -581,7 +581,7 @@ INSERT INTO `file_storage_item` VALUES (210, 'fileStorage', 'http://faculty-ku.l
 INSERT INTO `file_storage_item` VALUES (211, 'fileStorage', 'http://faculty-ku.local/storage/source', '1\\12j26Xd8OUeSH7F_C84NZlNmvpA1afUm.jpg', 'image/jpeg', 55237, '12j26Xd8OUeSH7F_C84NZlNmvpA1afUm', '127.0.0.1', NULL, 1620098530, NULL);
 INSERT INTO `file_storage_item` VALUES (212, 'fileStorage', 'http://faculty-ku.local/storage/source', '1\\UfGfHr0nYSsZeBMuzGRhuCYHKZozSZce.jpg', 'image/jpeg', 59296, 'UfGfHr0nYSsZeBMuzGRhuCYHKZozSZce', '127.0.0.1', NULL, 1620098530, NULL);
 INSERT INTO `file_storage_item` VALUES (219, 'fileStorage', 'http://faculty-ku.local/storage/source', '\\1\\3uQ2JlMDwZcm1CuzNOzdY_XLzzQPkHbR.png', 'image/png', 622806, '3uQ2JlMDwZcm1CuzNOzdY_XLzzQPkHbR', '127.0.0.1', NULL, 1620275330, NULL);
-INSERT INTO `file_storage_item` VALUES (216, 'fileStorage', 'http://159.65.131.194/storage/source', '1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'image/png', 718465, 'veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ', '127.0.0.1', NULL, 1620266704, NULL);
+INSERT INTO `file_storage_item` VALUES (216, 'fileStorage', 'http://faculty-ku.local/storage/source', '1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'image/png', 718465, 'veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ', '127.0.0.1', NULL, 1620266704, NULL);
 INSERT INTO `file_storage_item` VALUES (221, 'fileStorage', 'http://faculty-ku.local/storage/source', '\\1\\NZOMf4hLwKv3baDcs6D843mn8c-K1pej.png', 'image/png', 692481, 'NZOMf4hLwKv3baDcs6D843mn8c-K1pej', '127.0.0.1', NULL, 1620276072, NULL);
 INSERT INTO `file_storage_item` VALUES (222, 'fileStorage', 'http://faculty-ku.local/storage/source', '\\1\\c3acXuAxU0EnzDrRxdPFKKufeLn0vgZt.png', 'image/png', 622806, 'c3acXuAxU0EnzDrRxdPFKKufeLn0vgZt', '127.0.0.1', NULL, 1620276072, NULL);
 INSERT INTO `file_storage_item` VALUES (223, 'fileStorage', 'http://faculty-ku.local/storage/source', '\\1\\Mt_MET0kJI8Emxv1ys-5wMlr1MeOM8Gf.png', 'image/png', 675384, 'Mt_MET0kJI8Emxv1ys-5wMlr1MeOM8Gf', '127.0.0.1', NULL, 1620276072, NULL);
@@ -2582,7 +2582,7 @@ CREATE TABLE `widget_carousel_item`  (
 -- ----------------------------
 -- Records of widget_carousel_item
 -- ----------------------------
-INSERT INTO `widget_carousel_item` VALUES (4, 1, 'http://159.65.131.194/storage/source', '1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'http://159.65.131.194/storage/source/1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'image/png', '', '<h2>LED System</h2>', 1, 5, 1592020216, 1620266712);
+INSERT INTO `widget_carousel_item` VALUES (4, 1, 'http://faculty-ku.local/storage/source', '1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'http://faculty-ku.local/storage/source/1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'image/png', '', '<h2>LED System</h2>', 1, 5, 1592020216, 1620266712);
 INSERT INTO `widget_carousel_item` VALUES (5, 1, 'http://faculty-ku.local/storage/source', '\\1\\HWT-G2uf0UpoV_IebHS3-cHZeGVY5ML4.png', 'http://faculty-ku.local/storage/source/\\1\\HWT-G2uf0UpoV_IebHS3-cHZeGVY5ML4.png', 'image/png', '', '<h2>Queue System & Service</h2>', 1, 3, 1592020242, 1620275363);
 INSERT INTO `widget_carousel_item` VALUES (6, 1, 'http://faculty-ku.local/storage/source', '\\1\\3uQ2JlMDwZcm1CuzNOzdY_XLzzQPkHbR.png', 'http://faculty-ku.local/storage/source/\\1\\3uQ2JlMDwZcm1CuzNOzdY_XLzzQPkHbR.png', 'image/png', '', '<h2>System & Software Service </h2>', 1, 2, 1592020264, 1620275334);
 INSERT INTO `widget_carousel_item` VALUES (7, 2, 'http://faculty-ku.local/storage/source', '\\1\\YpZb62agiOAZPSP1Qa-Ew8jV6USVbXXU.jpg', NULL, 'image/jpeg', '', '<p>ทดสอบ</p>', 1, 4, 1592385278, 1592385278);
