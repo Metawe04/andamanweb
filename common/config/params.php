@@ -6,7 +6,7 @@ return [
     'senderName' => 'Example.com mailer',
     'user.passwordResetTokenExpire' => 3600,
     'bsVersion' => '4.x',
-    'storageUrl' => YII_ENV_DEV ? 'http://159.65.131.194/storage/source' : 'http://andaman-web.local/storage/source',
+    'storageUrl' => YII_ENV_DEV ? 'http://159.65.131.194/storage/source' : 'http://159.65.131.194/storage/source',
     'tinymceOptions' => [
         'plugins' => [
             "print preview paste importcss searchreplace autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap emoticons"
