@@ -2582,7 +2582,7 @@ CREATE TABLE `widget_carousel_item`  (
 -- ----------------------------
 -- Records of widget_carousel_item
 -- ----------------------------
-INSERT INTO `widget_carousel_item` VALUES (4, 1, 'http://159.65.131.194/storage/source', '1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'http://159.65.131.194/storage/source/1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'image/png', '', '<h2>LED System</h2>', 1, 5, 1592020216, 1620266712);
+INSERT INTO `widget_carousel_item` VALUES (4, 1, 'http://faculty-ku.local/storage/source', '1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'http://159.65.131.194/storage/source/1\\veiYAWMvrNzs4TP1GRGK15l6GSCOyvHQ.png', 'image/png', '', '<h2>LED System</h2>', 1, 5, 1592020216, 1620266712);
 INSERT INTO `widget_carousel_item` VALUES (5, 1, 'http://faculty-ku.local/storage/source', '\\1\\HWT-G2uf0UpoV_IebHS3-cHZeGVY5ML4.png', 'http://faculty-ku.local/storage/source/\\1\\HWT-G2uf0UpoV_IebHS3-cHZeGVY5ML4.png', 'image/png', '', '<h2>Queue System & Service</h2>', 1, 3, 1592020242, 1620275363);
 INSERT INTO `widget_carousel_item` VALUES (6, 1, 'http://faculty-ku.local/storage/source', '\\1\\3uQ2JlMDwZcm1CuzNOzdY_XLzzQPkHbR.png', 'http://faculty-ku.local/storage/source/\\1\\3uQ2JlMDwZcm1CuzNOzdY_XLzzQPkHbR.png', 'image/png', '', '<h2>System & Software Service </h2>', 1, 2, 1592020264, 1620275334);
 INSERT INTO `widget_carousel_item` VALUES (7, 2, 'http://faculty-ku.local/storage/source', '\\1\\YpZb62agiOAZPSP1Qa-Ew8jV6USVbXXU.jpg', NULL, 'image/jpeg', '', '<p>ทดสอบ</p>', 1, 4, 1592385278, 1592385278);

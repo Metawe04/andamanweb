@@ -7,7 +7,7 @@
  */
 return [
   'class' => 'trntv\filekit\Storage',
-  'baseUrl' => YII_ENV_DEV ? 'http://faculty-ku.local/storage/source' : 'http://www.fm.agr.ku.ac.th/storage/source',
+  'baseUrl' => YII_ENV_DEV ? 'http://andaman-web.local/storage/source' : 'http://andaman-web/storage/source',
   'filesystem' => [
       'class' => 'common\components\filesystem\LocalFlysystemBuilder',
       'path' => '@storage/web/source'
