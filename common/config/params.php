@@ -6,7 +6,7 @@ return [
     'senderName' => 'Example.com mailer',
     'user.passwordResetTokenExpire' => 3600,
     'bsVersion' => '4.x',
-    'storageUrl' => YII_ENV_DEV ? 'http://faculty-ku.local/storage/source' : 'http://www.fm.agr.ku.ac.th/storage/source',
+    'storageUrl' => YII_ENV_DEV ? 'http://andaman-web.local/storage/source' : 'http://159.65.131.194/storage/source',
     'tinymceOptions' => [
         'plugins' => [
             "print preview paste importcss searchreplace autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap emoticons"
@@ -33,5 +33,5 @@ return [
     'fmEmail' => 'andamanpattana@gmail.com',
     'fmTel' => '025334548',
     'fmFax' => '025334548',
-    'baseUrl' => YII_ENV_DEV ? 'http://159.65.131.194' : 'http://www.159.65.131.194',
+    'baseUrl' => YII_ENV_DEV ? 'http://andaman-web.local' : 'http://159.65.131.194',
 ];
