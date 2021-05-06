@@ -51,7 +51,7 @@ use yii\widgets\Menu;
             <?php
             echo Menu::widget([
                 'items' => [
-                    ['label' => 'เกี่ยวกับเรา', 'url' => ['/page/view', 'slug' => 'about']],
+                    ['label' => 'About Us', 'url' => ['/page/view', 'slug' => 'about']],
                     // [
                     //     'label' => 'หลักสูตร', 'url' => '#',
                     //     'options' => [
@@ -63,9 +63,9 @@ use yii\widgets\Menu;
                     //     ]
                     // ],
                     // ['label' => 'งานวิจัย', 'url' =>['/research']],
-                    // ['label' => 'ข่าวประชาสัมพันธ์', 'url' => ['/news']],
+                    ['label' => 'Product and Service', 'url' => ['/news']],
                     // ['label' => 'บุคลากร', 'url' => ['/personnel']],
-                    ['label' => 'ติดต่อเรา', 'url' => ['/page/view', 'slug' => 'contact']],
+                    ['label' => 'Contact Us', 'url' => ['/page/view', 'slug' => 'contact']],
                     // ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                 ],
             ]);
