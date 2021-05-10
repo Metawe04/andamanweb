@@ -33,7 +33,7 @@ use yii\widgets\Menu;
 
         <div class="logo float-left">
             <a href="<?= Url::base(true) ?>" style="font-size: 23px; padding-left: 10%;">
-            Andaman Pattana LP.
+            Andaman Pattana LP.test
             </a>
             <h1 class="text-light">
                 <a href="<?= Url::base(true) ?>">

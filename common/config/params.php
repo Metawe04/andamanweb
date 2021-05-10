@@ -33,5 +33,5 @@ return [
     'fmEmail' => 'andamanpattana@gmail.com',
     'fmTel' => '025334548',
     'fmFax' => '025334548',
-    'baseUrl' => YII_ENV_DEV ? 'http://andaman-web.local' : 'http://159.65.131.194',
+    'baseUrl' => YII_ENV_DEV ? 'http://159.65.131.194' : 'http://159.65.131.194',
 ];
