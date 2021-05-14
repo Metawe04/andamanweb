@@ -22,7 +22,7 @@ $url = Yii::$app->request->url;
 
             <span class="text-muted font-weight-bold mr-4"></span>
 
-            <?= Html::a('<i class="flaticon-home-2"></i> เว็บไซต์', 'http://159.65.131.194/', [
+            <?= Html::a('<i class="flaticon-home-2"></i> เว็บไซต์', 'https://www.andamanpattana.com/', [
                 'class' => 'btn btn-outline-success btn-hover-primary btn-sm mr-2',
             ]) ?>
             <!--end::Action-->

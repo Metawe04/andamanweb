@@ -1,4 +1,4 @@
 <?
-     header("Location:http://159.65.131.194/");
+     header("Location:https://www.andamanpattana.com/");
     exit;
  ?>
