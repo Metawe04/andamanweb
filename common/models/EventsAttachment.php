@@ -82,6 +82,6 @@ class EventsAttachment extends \common\components\ActiveRecord
 
     public function getUrl()
     {
-        return Url::base(true) . '/storage/source'. str_replace('\\', '/', $this->path);
+        return Url::base(true) . '/storage/source/'. str_replace('\\', '/', $this->path);
     }
 }
