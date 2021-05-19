@@ -54,7 +54,7 @@ class EventsObject extends \common\components\ApiObject
     if (empty($this->model->image_path)) {
       return '';
     }
-    return Url::base(true) . '/storage/source/' . str_replace('\\', '/', $this->model->image_path);
+    return Url::base(true) . '/storage/source' . str_replace('\\', '/', $this->model->image_path);
   }
 
   public function getDate()
