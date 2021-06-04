@@ -211,9 +211,9 @@ $bundle2->depends[] = 'frontend\assets\AppAsset';
                                                     ]) ?>
                                                 </div>
                                                 <div class="latest-research-content">
-                                                    <h4>
+                                                    <!-- <h4>
                                                         <i class="far fa-calendar-alt"></i> <?= $item->date ?>, <?= $item->year ?>
-                                                    </h4>
+                                                    </h4> -->
                                                     <?= $item->title ?>
                                                 </div>
                                             </a>

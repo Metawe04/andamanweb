@@ -92,19 +92,19 @@ CSS
         ]) ?>
         <div class="row">
             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                <div class="row news-details-page-inner data-aos=" fade-up">
+                <div class="row news-details-page-inner data-aos=" fade-up>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <?php if ($events->imageUrl) : ?>
                             <div class="news-img-holder" data-aos="fade-up">
                                 <?= Html::img($events->imageUrl, ['class' => 'img-responsive', 'alt' => 'pic', 'style' => 'min-width: 100%;max-height: 400px;']) ?>
-                                <ul class="news-date1">
+                                <!-- <ul class="news-date1">
                                     <li>
                                         <?= $events->date ?>
                                     </li>
                                     <li>
                                         <?= $events->year ?>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         <?php endif; ?>
                         <h4 class="title-default-left-bold-lowhight" data-aos="fade-up">
@@ -171,7 +171,7 @@ CSS
                                                     ]) ?>
                                                 </div>
                                                 <div class="latest-research-content">
-                                                    <h4><?= $item->date ?>, <?= $item->year ?></h4>
+                                                    <!-- <h4><?= $item->date ?>, <?= $item->year ?></h4> -->
                                                     <?= $item->title ?>
                                                 </div>
                                             </a>

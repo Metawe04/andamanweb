@@ -171,7 +171,7 @@ $this->registerMetaTag([
                           ]) ?>
                         </div>
                         <div class="latest-research-content">
-                          <h4><?= $item->date ?>, <?= $item->year ?></h4>
+                          <!-- <h4><?= $item->date ?>, <?= $item->year ?></h4> -->
                           <?= $item->title ?>
                         </div>
                       </a>
