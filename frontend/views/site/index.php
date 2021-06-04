@@ -74,10 +74,10 @@ $bundle2->depends[] = 'frontend\assets\AppAsset';
                                             'alt' => 'pic',
                                         ]) ?>
                                     </a>
-                                    <ul class="news-date2">
+                                    <!-- <ul class="news-date2">
                                         <li><i class="far fa-calendar-alt"></i> <?= $item->date ?></li>
                                         <li><?= $item->year ?></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
 
                                 <div class="news-content">

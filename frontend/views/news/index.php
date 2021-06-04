@@ -80,10 +80,10 @@ $this->registerMetaTag([
                                         ]) ?>
                                     </a>
 
-                                    <ul class="news-date2">
+                                    <!-- <ul class="news-date2">
                                         <li><?= $item->date ?></li>
                                         <li><?= $item->year ?></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                                 <div class="news-content">
                                     <p class="title-news-left-bold no-margin">

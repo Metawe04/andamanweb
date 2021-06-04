@@ -108,14 +108,14 @@ $this->registerCss($style);
                         <?php if ($news->imageUrl) : ?>
                             <div class="news-img-holder" data-aos="fade-up">
                                 <?= Html::img($news->imageUrl, ['class' => 'img-responsive', 'alt' => 'pic', 'style' => 'min-width: 100%;max-height: 400px;']) ?>
-                                <ul class="news-date1">
+                                <!-- <ul class="news-date1">
                                     <li>
                                         <?= $news->date ?>
                                     </li>
                                     <li>
                                         <?= $news->year ?>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         <?php endif; ?>
                         <h4 class="title-default-left-bold-lowhight" data-aos="fade-up">
