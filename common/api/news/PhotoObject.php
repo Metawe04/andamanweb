@@ -15,7 +15,7 @@ class PhotoObject extends \common\components\ApiObject
 
     public function box($width, $height){
         // $img = Html::img($this->thumb($width, $height));
-        $img = Html::img($this->model->url, ['class' => 'img-responsive center-block', 'alt' => 'event', 'style'  => 'width: 100%;']);
+        $img = Html::img($this->model->url, ['class' => 'img-responsive center-block', 'alt' => 'event', 'style'  => 'height: 120px;']);
         // $a = Html::a($img, $this->model->url, [
         //     'data-fancybox' => 'gallery',
         //     'class' => 'gallery-box',

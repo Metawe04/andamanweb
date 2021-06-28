@@ -92,6 +92,11 @@ $style = <<<CSS
 .count-box a:hover .demo-gallery-poster > img {
     opacity: 1;
 }
+@media (max-width: 767px) {
+    img.img-responsive.center-block{
+        height: 200px !important;
+    }
+}
 CSS;
 $this->registerCss($style);
 ?>
