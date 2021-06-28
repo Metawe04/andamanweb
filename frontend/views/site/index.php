@@ -69,9 +69,9 @@ $bundle2->depends[] = 'frontend\assets\AppAsset';
                             <div class="news-box" data-aos="fade-up">
                                 <div class="news-img-holder">
                                     <a href="<?= Url::to(['/news/view', 'slug' => $item->slug]) ?>" data-pjax="0">
-                                        <?= Html::imgLazy($item->thumb(100), [
+                                        <?= Html::imgLazy($item->imageUrl, [
                                             'class' => 'img-responsive center-block img-news',
-                                            'alt' => 'pic',
+                                            'alt' => 'pic'
                                         ]) ?>
                                     </a>
                                     <!-- <ul class="news-date2">
