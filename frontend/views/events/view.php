@@ -165,7 +165,7 @@ CSS
                                         <li data-aos="fade-up">
                                             <a href="<?= Url::to(['/events/view', 'slug' => $item->slug]) ?>" data-pjax="0">
                                                 <div class="latest-research-img">
-                                                    <?= Html::imgLazy($item->thumb(80, 62), [
+                                                    <?= Html::imgLazy($item->imageUrl, [
                                                         'class' => 'img-responsive center-block img-news',
                                                         'alt' => 'pic',
                                                     ]) ?>
