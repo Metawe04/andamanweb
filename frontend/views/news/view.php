@@ -127,11 +127,6 @@ $this->registerCss($style);
                             <a href="#"><?= $news->title ?></a>
                         </h4>
                         <ul class="title-bar-high news-comments" data-aos="fade-up">
-                            <li>
-                                <a href="#"><i class="fa fa-user" aria-hidden="true">
-                                    </i><span>By</span> <?= $news->author ?>
-                                </a>
-                            </li>
 
                             <li>
                                 <?php foreach ($news->tags as $index => $tag) : ?>

@@ -85,9 +85,6 @@ $bundle2->depends[] = 'frontend\assets\AppAsset';
                                         <?= Html::a($item->title, ['/news/view', 'slug' => $item->slug], ['data-pjax' => '0']) ?>
                                     </p>
                                     <ul class="title-bar-high news-comments">
-                                        <li>
-                                            <a href="<?= Url::to(['/news', 'create_by' => $item->createBy]); ?>"><i class="fa fa-user" aria-hidden="true"></i><span>By</span> <?= $item->author ?></a>
-                                        </li>
                                         <?php if (count($item->tags) > 0) : ?>
                                             <li>
                                                 <?php foreach ($item->tags as $index => $tag) : ?>

@@ -74,7 +74,7 @@ $this->registerMetaTag([
                                 <div class="news-img-holder">
 
                                 <a href="<?= Url::to(['/news/view', 'slug' => $item->slug]) ?>" data-pjax="0">
-                                        <?= Html::imgLazy($item->thumb(100), [
+                                        <?= Html::imgLazy($item->imageUrl, [
                                             'class' => 'img-responsive center-block img-news',
                                             'alt' => 'pic',
                                         ]) ?>
@@ -90,9 +90,7 @@ $this->registerMetaTag([
                                         <?= Html::a($item->title, ['/news/view', 'slug' => $item->slug], ['data-pjax' => '0']) ?>
                                     </p>
                                     <ul class="title-bar-high news-comments">
-                                        <li>
-                                            <a href="<?= Url::to(['/news', 'create_by' => $item->createBy]); ?>"><i class="fa fa-user" aria-hidden="true"></i><span>By</span> <?= $item->author ?></a>
-                                        </li>
+                                        
                                         <?php if (count($item->tags) > 0) : ?>
                                             <li>
                                                 <?php foreach ($item->tags as $index => $tag) : ?>
