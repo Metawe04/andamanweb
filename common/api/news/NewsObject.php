@@ -49,7 +49,7 @@ class NewsObject extends \common\components\ApiObject
 
     public function getImageUrl(){
         if(empty($this->model->image_path)) {
-            return '';
+            return Url::base(true).'/images/logo.png';
         }
         return $this->model->image_base_url. str_replace('\\', '/', $this->model->image_path);
     }
