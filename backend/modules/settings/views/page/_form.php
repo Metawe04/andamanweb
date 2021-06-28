@@ -78,7 +78,7 @@ CSS
                                     'options' => ['rows' => 6],
                                     'language' => 'th_TH',
                                     'clientOptions' => ArrayHelper::merge(Yii::$app->params['tinymceOptions'], [
-                                        'images_upload_url' => '/settings/page/editor-upload',
+                                        'images_upload_url' =>  Url::base(true) . '/settings/page/editor-upload',
                                         'content_css' =>  Url::base(true) . '/css/codepen.min.css'
                                     ])
                                 ]); ?>
