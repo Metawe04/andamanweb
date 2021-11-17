@@ -31,7 +31,7 @@ return [
         'autoresize_on_init' => false,
     ],
     'fmEmail' => 'andamanpattana@gmail.com',
-    'fmTel' => '025334548',
+    'fmTel' => '0813025657',
     'fmFax' => '025334548',
     'baseUrl' => YII_ENV_DEV ? 'https://www.andamanpattana.com/' : 'https://www.andamanpattana.com/',
 ];
