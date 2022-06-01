@@ -46,7 +46,7 @@ $this->registerMetaTag([
         <div class="info-box ">
           <i class="bx bx-phone-call"></i>
           <h3>Call Us</h3>
-          <p>Tel : 0-2533-4548 , 0813025657 </p>
+          <p>Tel : 0-2533-4548 , 0933690165 </p>
           <p>Fax: 0-2533-4548 </p>
         </div>
       </div>
