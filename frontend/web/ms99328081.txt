@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "andamanpattana.com",
+  "Id": "53ac954a-ff14-4896-8620-42f29cedff7e"
+}
